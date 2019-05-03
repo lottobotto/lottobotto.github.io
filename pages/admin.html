@@ -24,7 +24,7 @@
         left: 0;
         background-color: #1c1d1f;
         overflow-x: hidden;
-         padding-top: 20px;
+        padding-top: 20px;
     }
     .sidebar a {
         transition: padding 0.25s, font-size 0.25s;
@@ -70,7 +70,7 @@
         padding: 15px 15px 5px 15px;
     }
     .code {
-         color: #beaf23
+        color: #beaf23
     }
 </style>
     
@@ -95,25 +95,18 @@
         <div class="main">
                 <div class="spacer"></div>
             <div class="command">
-                <h1 id ="bal">;bal</h1>
-                <p class="desc">Request a user's balance.</p>
-                <p class="format">Format: <code class="code">;bal [optional mention]</code></p>
-                <p>Usage example #1: <code class="code">;bal</code></p>
-                <p>Usage example #2: <code class="code">;bal @user</code></p>
+                <h1 id ="setup">;setup</h1>
+                <p class="desc">Setup LottoBotto for your server.</p>
+                <p class="format">Format: <code class="code">;setup [category] [value]</code></p>
+                <p>Usage example #1: <code class="code">;setup xp 2</code></p>
+                <p>Categories: xp, help</p>
             </div>
             <div class="spacer"></div>
             <div class="command">
-                <h1 id ="daily">;daily</h1>
-                <p class="desc">Recieve your daily payment (according to level.)</p>
-                <p class="format">Format: <code class="code">;daily</code></p>
-                <p>Usage example #1: <code class="code">;daily</code></p>
-            </div>
-            <div class="spacer"></div>
-            <div class="command">
-                <h1 id ="help">;help</h1>
-                <p class="desc">Request a link to the help page.</p>
-                <p class="format">Format: <code class="code">;help</code></p>
-                <p>Usage example #1: <code class="code">;help</code></p>
+                <h1 id ="setprefix">;setprefix</h1>
+                <p class="desc">Set your server's prefix for LottoBotto.</p>
+                <p class="format">Format: <code class="code">;setprefix [prefix]</code></p>
+                <p>Usage example #1: <code class="code">;setprefix !</code></p>
             </div>
         </div>
     </body>
