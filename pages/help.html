@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<style>
+    .sidebar {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #1c1d1f;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    .sidebar a {
+        transition: padding 0.25s, font-size 0.25s;
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20.0px;
+        color: rgb(255, 255, 255);
+        display: block;
+    }
+    .sidebar a:hover {
+        transition: padding 0.25s, font-size 0.25s;
+        padding: 15px 16px 15px 16px;
+        font-size: 25.0px;
+        color: #797979;
+    }
+    .header {
+        font-size: 25px;
+        text-decoration: none;
+        color: #838383;
+        font-weight: bold;
+        padding: 0px 15px;
+    }
+    .main {
+        margin-left: 160px;
+        padding: 0px 0px;
+    }
+</style>
+
+<body>
+    <div class="sidebar">
+        <div class="header">Essentials</div>
+        <a href="#">;bal</a>
+        <a href="#">;daily</a>
+        <a href="#">;help</a>
+        <div class="header">Casino</div>
+        <a href="#">;flip</a>
+        <a href="#">;roll</a>
+        <a href="#">;spin</a>
+        <div class="header">Admin</div>
+        <a href="#">;setup</a>
+        <a href="#">;setprefix</a>
+        <div class="header">Extra</div>
+        <a href="#">;ping</a>
+        <a href="#">;support</a>
+    </div>
+
+    <div class="main"></div>
+</body>
+</html>
